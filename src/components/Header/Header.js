@@ -11,7 +11,7 @@ const Header = () => {
          <div className="container">
 
             <div className="row">
-               <div className="col-md-5 col-sm-12 col-12  mt-8">
+               <div className="header__cols col-md-5 col-sm-12 col-12  mt-8">
                   <div className="fs72 text-white">
                      Enjoy Your
                      Morning Coffee.

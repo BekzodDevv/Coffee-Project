@@ -1,0 +1,79 @@
+.section6 {
+    .card {
+        border: none !important;
+        background-color: $navbarcolor !important;
+        .card-header {
+            .img {
+                width: 499px;
+                height: 149px;
+            }
+        }
+    }
+    .swiper {
+        height: 400px !important;
+
+        .swiper-button-prev {
+            top: 90% !important;
+            left: auto;
+            right: 72px !important;
+            width: 50px;
+            height: 50px;
+            background-color: $cardcolor;
+            border-radius: 50%;
+            text-align: center;
+            transform: 5s ease all;
+            &::after {
+                color: white;
+                font-size: 20px;
+            }
+            &:hover {
+                background-color: $btncolor;
+                &::after {
+                    color: $bodycolor !important;
+                }
+            }
+        }
+        .swiper-button-next {
+            top: 90% !important;
+            width: 50px;
+            height: 50px;
+            background-color: $cardcolor;
+            border-radius: 50%;
+            text-align: center;
+            &::after {
+                color: white;
+                font-size: 20px;
+            }
+            &:hover {
+                background-color: $btncolor;
+                &::after {
+                    color: $bodycolor !important;
+                }
+            }
+        }
+
+        .swiper-pagination {
+            background: #36382d;
+            border-radius: 3px;
+            width: 15%;
+            height: 4px;
+            left: 0;
+            top: 90% !important;
+
+            .swiper-pagination-progressbar-fill {
+                background: #c99e71;
+                border-radius: 3px;
+            }
+        }
+    }
+    // .swiper-pagination-fraction,
+    // .swiper-pagination-custom,
+    // .swiper-horizontal > .swiper-pagination-bullets,
+    // .swiper-pagination-bullets.swiper-pagination-horizontal {
+    //     bottom: 0px;
+    //     left: 0;
+    //     width: 100%;
+    //     z-index: 999 !important;
+    //     text-align: right;
+    // }
+}

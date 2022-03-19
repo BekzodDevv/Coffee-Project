@@ -4,8 +4,14 @@
     }
     .section5 {
         &__cols {
-          max-width: 320px !important;
-          width: 100% !important;
+            max-width: 320px !important;
+            width: 100% !important;
+        }
+    }
+
+    .header {
+        &__cols {
+            margin-top: 3.5rem !important;
         }
     }
 }
@@ -38,7 +44,7 @@
         }
     }
 
-    .section4{
+    .section4 {
         &__col2 {
             text-align: center !important;
         }
@@ -57,8 +63,6 @@
             }
         }
     }
-
-    
 }
 
 // Large devices (desktops, 992px and up)
@@ -66,7 +70,6 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-   
 }
 
 @media only screen and (max-width: 1200px) {

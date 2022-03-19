@@ -39,6 +39,7 @@
 
 body {
   background-color: #14110e !important;
+  z-index: -6 !important;
 }
 
 a {
@@ -136,11 +137,38 @@ li {
   color: #c99e71;
 }
 
+.fs1888 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.fs16arrow {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c99e71;
+}
+
 .fs16 {
   font-weight: 500;
   font-size: 16px;
   line-height: 180%;
   text-transform: capitalize;
+}
+
+.fs166 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
 }
 
 .fs16t {
@@ -154,6 +182,9 @@ li {
 .fs14 {
   font-size: 14px;
   line-height: 17px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
 }
 
 .fs14t {
@@ -222,6 +253,10 @@ li {
   .section5__cols {
     max-width: 320px !important;
     width: 100% !important;
+  }
+
+  .header__cols {
+    margin-top: 3.5rem !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -302,7 +337,70 @@ li {
 }
 
 .section5__cols {
-  border: 1px solid #32323D;
+  border: 1px solid #32323d;
+}
+
+.section6 .card {
+  border: none !important;
+  background-color: #1c1814 !important;
+}
+.section6 .card .card-header .img {
+  width: 499px;
+  height: 149px;
+}
+.section6 .swiper {
+  height: 400px !important;
+}
+.section6 .swiper .swiper-button-prev {
+  top: 90% !important;
+  left: auto;
+  right: 72px !important;
+  width: 50px;
+  height: 50px;
+  background-color: #121315;
+  border-radius: 50%;
+  text-align: center;
+  transform: 5s ease all;
+}
+.section6 .swiper .swiper-button-prev::after {
+  color: white;
+  font-size: 20px;
+}
+.section6 .swiper .swiper-button-prev:hover {
+  background-color: #c99e71;
+}
+.section6 .swiper .swiper-button-prev:hover::after {
+  color: #14110e !important;
+}
+.section6 .swiper .swiper-button-next {
+  top: 90% !important;
+  width: 50px;
+  height: 50px;
+  background-color: #121315;
+  border-radius: 50%;
+  text-align: center;
+}
+.section6 .swiper .swiper-button-next::after {
+  color: white;
+  font-size: 20px;
+}
+.section6 .swiper .swiper-button-next:hover {
+  background-color: #c99e71;
+}
+.section6 .swiper .swiper-button-next:hover::after {
+  color: #14110e !important;
+}
+.section6 .swiper .swiper-pagination {
+  background: #36382d;
+  border-radius: 3px;
+  width: 15%;
+  height: 4px;
+  left: 0;
+  top: 90% !important;
+}
+.section6 .swiper .swiper-pagination .swiper-pagination-progressbar-fill {
+  background: #c99e71;
+  border-radius: 3px;
 }
 
 .section7 {
@@ -314,6 +412,18 @@ li {
   outline: none;
   border: none;
   color: white;
+}
+
+.section8 .card {
+  border: none !important;
+}
+.section8 .card .card-header {
+  background-color: transparent !important;
+  padding: 0px !important;
+  border: none !important;
+}
+.section8 .card .card-body {
+  background-color: #1c1814;
 }
 
 .carts .card {

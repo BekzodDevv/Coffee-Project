@@ -6,7 +6,7 @@ import Titles from '../Titles'
 const Section7 = () => {
 
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 pt-5">
             <section className="section7">
                 <div className="row">
                     <div className="col-md-6">

@@ -3,8 +3,7 @@ $btncolor: #c99e71;
 $bodycolor: #14110e;
 
 $cardcolor: #121315;
-$bordercolor: #32323D;
-
+$bordercolor: #32323d;
 
 $background: #f1f2f6;
 $yellow: #ffd401;
@@ -56,6 +55,7 @@ $bdr: 4px;
 
 body {
     background-color: $bodycolor !important;
+    z-index: -6 !important;
 }
 
 a {
@@ -78,7 +78,7 @@ li {
 }
 
 .fs48 {
-    font-family: 'Righteous';
+    font-family: "Righteous";
     font-size: clamp(33px, 4.2vw, 46px);
     font-style: normal;
     font-weight: 700;
@@ -152,12 +152,37 @@ li {
     line-height: 22px;
     color: #c99e71;
 }
+.fs1888 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.fs16arrow {
+    font-family: "Urbanist";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c99e71;
+}
 
 .fs16 {
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
     text-transform: capitalize;
+}
+.fs166 {
+    font-family: "Urbanist";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
 }
 
 .fs16t {
@@ -171,6 +196,9 @@ li {
 .fs14 {
     font-size: 14px;
     line-height: 17px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
 }
 
 .fs14t {
@@ -242,7 +270,7 @@ li {
 @import "components/Section5/Section5.scss";
 @import "components/Section6/Section6.scss";
 @import "components/Section7/Section7.scss";
-
+@import "components/Section8/Section8.scss";
 
 @import "components/Cart.scss";
 
