@@ -1,0 +1,22 @@
+.navbar {
+    background: $navbarcolor;
+    .container-fluid {
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    margin: 13px 10px;
+                    .nav-link {
+                        color: #fff !important;
+                       
+                    }
+                    .search {
+
+                    }
+                    .shopping {
+
+                    }
+                }
+            }
+        }
+    }
+}

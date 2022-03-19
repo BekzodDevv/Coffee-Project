@@ -1,0 +1,249 @@
+$navbarcolor: #1c1814;
+$btncolor: #c99e71;
+$bodycolor: #14110e;
+
+$cardcolor: #121315;
+$bordercolor: #32323D;
+
+
+$background: #f1f2f6;
+$yellow: #ffd401;
+$yellow2: #fdb917;
+$seriy: #9da7bb;
+$t30: #2e2e2e;
+$t14: #9da7bb;
+$t14t: #606060;
+
+$bdr: 4px;
+
+.ccolor {
+    color: $btncolor;
+}
+.buttonn {
+    text-align: center;
+    width: 172px;
+    height: 60px;
+    background-color: $btncolor;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.buttonn2 {
+    width: 252px;
+    height: 62px;
+    background-color: $btncolor;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bodycolor !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.fs72 {
+    font-size: clamp(35px, 5.9vw, 62px);
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.fs48 {
+    font-family: 'Righteous';
+    font-size: clamp(33px, 4.2vw, 46px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.fs38 {
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: $t30;
+}
+
+.fs32 {
+    font-size: 32px;
+    line-height: 38px;
+    color: #2e2e2e;
+}
+
+.fs30 {
+    font-size: clamp(25px, 2.9vw, 30px);
+    line-height: 36px;
+    color: $t30;
+}
+
+.fs24 {
+    font-size: clamp(19px, 2.9vw, 24px);
+    color: $btncolor;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.fs244 {
+    font-family: "Righteous";
+    font-size: clamp(18px, 1vw, 24px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+}
+
+.fs20 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.fs20t {
+    font-size: 20px;
+    line-height: 24px;
+    color: $t14;
+}
+
+.fs188 {
+    font-family: "Urbanist";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: $btncolor;
+}
+
+.fs18 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #c99e71;
+}
+
+.fs16 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.fs16t {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #c99e71;
+}
+
+.fs14 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.fs14t {
+    font-size: 14px;
+    line-height: 17px;
+    color: $t14;
+}
+
+.fs14tt {
+    font-size: 14px;
+    line-height: 17px;
+    color: $t14t;
+}
+
+.fs12 {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.fs12t {
+    font-size: 12px;
+    line-height: 14px;
+    color: $t14t;
+}
+
+.fs10 {
+    font-size: 10px;
+    line-height: 12px;
+    color: $t14;
+}
+
+.mt-8 {
+    margin-top: 7rem !important;
+}
+
+.pt-8 {
+    padding-top: 7rem !important;
+}
+
+.pt-7 {
+    padding-top: 6rem !important;
+}
+
+.pt-6 {
+    padding-top: 5rem !important;
+}
+
+.pb-8 {
+    padding-bottom: 7rem !important;
+}
+
+.pb-7 {
+    padding-bottom: 6rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 5rem !important;
+}
+
+@import "styles/media";
+
+@import "components/Navbars/Navbars.scss";
+@import "components/Header/Header.scss";
+@import "components/Section/Section1.scss";
+@import "components/Section2/Section2.scss";
+@import "components/Section3/Section3.scss";
+@import "components/Section4/Section4.scss";
+@import "components/Section5/Section5.scss";
+@import "components/Section6/Section6.scss";
+@import "components/Section7/Section7.scss";
+
+
+@import "components/Cart.scss";
+
+@import "components/Footer/Footer.scss";

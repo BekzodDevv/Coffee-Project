@@ -1,0 +1,13 @@
+.section1 {
+    .card {
+        border: none !important;
+        .card-header {
+            background-color: none !important;
+            &__titles {
+                &__id {
+                    color: red;
+                }
+            }
+        }
+    }
+}

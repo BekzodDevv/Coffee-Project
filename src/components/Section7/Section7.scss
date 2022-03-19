@@ -1,0 +1,11 @@
+.section7 {
+    background-color: $navbarcolor !important;
+
+    &__input {
+        height: 50px;
+        background-color: $bodycolor;
+        outline: none;
+        border: none;
+        color: white;
+    }
+}

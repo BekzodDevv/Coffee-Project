@@ -1,13 +1,327 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ccolor {
+  color: #c99e71;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.buttonn {
+  text-align: center;
+  width: 172px;
+  height: 60px;
+  background-color: #c99e71;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
+
+.buttonn2 {
+  width: 252px;
+  height: 62px;
+  background-color: #c99e71;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14110e !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.fs72 {
+  font-size: clamp(35px, 5.9vw, 62px);
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.fs48 {
+  font-family: "Righteous";
+  font-size: clamp(33px, 4.2vw, 46px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.fs38 {
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+
+.fs32 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #2e2e2e;
+}
+
+.fs30 {
+  font-size: clamp(25px, 2.9vw, 30px);
+  line-height: 36px;
+  color: #2e2e2e;
+}
+
+.fs24 {
+  font-size: clamp(19px, 2.9vw, 24px);
+  color: #c99e71;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.fs244 {
+  font-family: "Righteous";
+  font-size: clamp(18px, 1vw, 24px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  color: white;
+}
+
+.fs20 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+
+.fs20t {
+  font-size: 20px;
+  line-height: 24px;
+  color: #9da7bb;
+}
+
+.fs188 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+}
+
+.fs18 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+}
+
+.fs16 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+
+.fs16t {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #c99e71;
+}
+
+.fs14 {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.fs14t {
+  font-size: 14px;
+  line-height: 17px;
+  color: #9da7bb;
+}
+
+.fs14tt {
+  font-size: 14px;
+  line-height: 17px;
+  color: #606060;
+}
+
+.fs12 {
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.fs12t {
+  font-size: 12px;
+  line-height: 14px;
+  color: #606060;
+}
+
+.fs10 {
+  font-size: 10px;
+  line-height: 12px;
+  color: #9da7bb;
+}
+
+.mt-8 {
+  margin-top: 7rem !important;
+}
+
+.pt-8 {
+  padding-top: 7rem !important;
+}
+
+.pt-7 {
+  padding-top: 6rem !important;
+}
+
+.pt-6 {
+  padding-top: 5rem !important;
+}
+
+.pb-8 {
+  padding-bottom: 7rem !important;
+}
+
+.pb-7 {
+  padding-bottom: 6rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 5rem !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    text-align: center;
+  }
+
+  .section5__cols {
+    max-width: 320px !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar .container-fluid .logo {
+    display: block !important;
+  }
+  .navbar .container-fluid .collapse {
+    text-align: center;
+  }
+  .navbar .container-fluid .collapse .navbar-nav .navbar-brand {
+    margin: 0 8px !important;
+    display: none;
+  }
+
+  .header {
+    background-position: 90% 20% !important;
+  }
+
+  .carts {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .carts__titles {
+    justify-content: center;
+  }
+
+  .section4__col2 {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar .container-fluid .collapse .navbar-nav .navbar-brand {
+    margin: 0 15px !important;
+  }
+}
+.navbar {
+  background: #1c1814;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item {
+  margin: 13px 10px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+}
+.header {
+  background: url("./././images/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.section1 .card {
+  border: none !important;
+}
+.section1 .card .card-header {
+  background-color: none !important;
+}
+.section1 .card .card-header__titles__id {
+  color: red;
+}
+
+.section2__col {
+  background-color: #1c1814 !important;
+  height: 545px;
+}
+
+.section3 .card {
+  border: none !important;
+}
+.section3 .card .card-header {
+  background-color: #121315 !important;
+}
+
+.section4 {
+  background-color: #1c1814 !important;
+}
+
+.section5__cols {
+  border: 1px solid #32323D;
+}
+
+.section7 {
+  background-color: #1c1814 !important;
+}
+.section7__input {
+  height: 50px;
+  background-color: #14110e;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.carts .card {
+  border: none !important;
+  background-color: transparent !important;
+}
+.carts .card .card-header {
+  background-color: transparent !important;
+}
+
+/*# sourceMappingURL=index.css.map */
