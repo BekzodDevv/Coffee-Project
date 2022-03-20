@@ -1,0 +1,25 @@
+.footer {
+    &__inputs {
+        width: 328px;
+        position: relative;
+    }
+    &__input {
+        height: 50px;
+        border-radius: 36px;
+        background-color: $navbarcolor;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    &__arrow {
+        position: absolute;
+        text-align:center;
+        content: "";
+        right: 10px;
+        padding-top: 6px;
+        width: 40px;
+        height: 40px;
+        background-color: $btncolor;
+        border-radius: 50%;
+    }
+}

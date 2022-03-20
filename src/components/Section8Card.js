@@ -6,7 +6,7 @@ const Section8Card = ({ image }) => {
             <div className="card">
                 <div className="card-header">
                     <div className="">
-                        <img src={image} className="img-fluid" alt="news1" />
+                        <img src={image} className="img-fluid w-100 h-100" alt="news1" />
                     </div>
                 </div>
                 <div className="card-body ">

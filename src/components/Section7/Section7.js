@@ -39,7 +39,7 @@ const Section7 = () => {
                             />
 
                             <div className="mx-auto text-center">
-                                <button className="buttonn mt-5  text-white">
+                                <button className="buttonn my-5  text-white">
                                     BOOK S TABLE
                                 </button>
                             </div>

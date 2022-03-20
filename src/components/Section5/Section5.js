@@ -16,7 +16,7 @@ const Section5 = () => {
         <div className="container mt-5 pt-5">
             <Titles title1={"Menu"} title2={"Coffee popular menu"} />
 
-            <section className="section5">
+            <section className="section5" id="section5">
                 <div className="row ">
                     <List image={Bg1} title="Americano rosted gred" price={"$12:00"} />
                     <List image={Bg2} title="Americano rosted gred" price={"$12:00"} />

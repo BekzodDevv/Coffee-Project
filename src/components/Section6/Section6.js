@@ -21,7 +21,7 @@ import Carousell from "../Carousell";
 
 const Section6 = () => {
     return (
-        <div className="section6  container  mt-5 pt-4">
+        <div className="section6  container  mt-5 pt-4" id="section6">
            <div className=" mb-5 pb-3">
            <Titles title1="Testimonial" title2="Says our customers" />
            </div>
@@ -63,6 +63,11 @@ const Section6 = () => {
                     <div className="col-md-6 text-white">
                         <SwiperSlide className="text-white">
                             <Carousell Star={Star} image={Des2} />
+                        </SwiperSlide>
+                    </div>
+                    <div className="col-md-6 text-white">
+                        <SwiperSlide className="text-white">
+                            <Carousell Star={Star} image={Des1} />
                         </SwiperSlide>
                     </div>
 

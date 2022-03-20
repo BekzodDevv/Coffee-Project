@@ -8,7 +8,7 @@ const Section4 = () => {
 
 
     return (
-        <section className="container mt-5">
+        <section className="container mt-5" id="section4">
             <div className="section4 py-4">
                 <div className="row">
                     <div className="col-md-6 align-self-center alitn-items-center mx-auto text-center py-5 ">

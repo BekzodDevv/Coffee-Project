@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 $navbarcolor: #1c1814;
 $btncolor: #c99e71;
 $bodycolor: #14110e;
@@ -72,16 +76,18 @@ li {
 }
 
 .fs72 {
+    font-family: "Righteous", cursive;
     font-size: clamp(35px, 5.9vw, 62px);
     font-weight: 400;
     line-height: 130%;
+    font-style: normal;
 }
 
 .fs48 {
-    font-family: "Righteous";
+    font-family: "Righteous", cursive;
     font-size: clamp(33px, 4.2vw, 46px);
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 130%;
 }
 
@@ -105,24 +111,25 @@ li {
 }
 
 .fs24 {
-    font-size: clamp(19px, 2.9vw, 24px);
+    font-family: "Righteous", cursive;
+    font-size: clamp(19px, 2vw, 24px);
     color: $btncolor;
+    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     text-transform: uppercase;
 }
 
 .fs244 {
-    font-family: "Righteous";
+    font-family: "Righteous", cursive;
     font-size: clamp(18px, 1vw, 24px);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 30px;
-    color: white;
 }
 
 .fs20 {
-    font-size: 20px;
+    font-family: "Urbanist", cursive;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -145,7 +152,16 @@ li {
     color: $btncolor;
 }
 
+.navbarfs18 {
+    font-family: "Inter", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 .fs18 {
+    font-family: "Urbanist", cursive;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -160,7 +176,7 @@ li {
 }
 
 .fs16arrow {
-    font-family: "Urbanist";
+    font-family: "Urbanist", cursive;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -169,13 +185,14 @@ li {
 }
 
 .fs16 {
+    font-family: "Urbanist", cursive;
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
     text-transform: capitalize;
 }
 .fs166 {
-    font-family: "Urbanist";
+    font-family: "Urbanist", cursive;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -186,6 +203,8 @@ li {
 }
 
 .fs16t {
+    font-family: "Urbanist", cursive;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;

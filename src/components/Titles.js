@@ -6,7 +6,7 @@ const Titles = ({ title1, title2 }) => {
 
 
     return (
-        <div>
+        <>
             <div className="row">
                 <div className="col-md-12 text-center mx-auto">
                     <div className="fs18">
@@ -17,7 +17,7 @@ const Titles = ({ title1, title2 }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

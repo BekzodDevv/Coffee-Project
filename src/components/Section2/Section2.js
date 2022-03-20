@@ -8,7 +8,7 @@ import Coffee6 from "./../../images/coffee6.webp"
 const Section2 = () => {
 
     return (
-        <section className="section2 mt-5 pt-5">
+        <section className="section2 mt-5 pt-5" id="section2">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-md-12 text-center ps-4">

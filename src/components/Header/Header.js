@@ -1,17 +1,13 @@
 import React from "react"
-// import Banner from "./banner.webp";
 
 
 const Header = () => {
 
-
-
    return (
-      <header className="header">
+      <header className="header" id="header">
          <div className="container">
-
             <div className="row">
-               <div className="header__cols col-md-5 col-sm-12 col-12  mt-8">
+               <div className="header__cols col-md-6 col-sm-12 col-12  mt-8">
                   <div className="fs72 text-white">
                      Enjoy Your
                      Morning Coffee.

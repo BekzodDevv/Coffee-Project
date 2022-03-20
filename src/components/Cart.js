@@ -1,6 +1,4 @@
 import React from 'react'
-// import News1 from "../images/news1.webp"
-// import News1 from "../images/banner.webp";
 
 
 const Cart = ({ id, title, image }) => {
@@ -10,7 +8,7 @@ const Cart = ({ id, title, image }) => {
                 <div className="card-header">
                     <div className="carts__titles d-flex align-items-center  mb-3">
                         <div className="carts__id fs24">0{id}</div>
-                        <div className="carts__title ms-3 fs244">{title}</div>
+                        <div className="carts__title text-white ms-3 fs244">{title}</div>
                     </div>
                     <div className="carts__images">
                         <img src={image} className="carts__image img-fluid" alt="News1" />

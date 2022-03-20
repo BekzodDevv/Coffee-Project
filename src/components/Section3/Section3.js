@@ -10,7 +10,7 @@ const Section3 = () => {
 
 
     return (
-        <div className="section3 container mt-5 pt-3">
+        <div className="section3 container mt-5 pt-3" id="section3">
             <Titles title1={"Popular Product"} title2={"Coffee popular Product"} />
    
 
